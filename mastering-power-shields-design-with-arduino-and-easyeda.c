@@ -1,3 +1,11 @@
+/*
+ * Course: Mastering Power Shields Design With Arduino And Easyeda
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for power shield logs
 
 // Simulate enabling power rails
@@ -14,6 +22,7 @@ void enable_12v(void) { // Enable 12V rail
   printf("12V rail ON\n"); // Log
 } // End enable_12v
 
+// Main routine: orchestrates the mastering power shields design with arduino and easyeda scenario
 int main(void) { // Entry
   printf("Mastering Power Shields: Design with Arduino & EasyEDA\n"); // Title
   enable_5v(); // Enable 5V
